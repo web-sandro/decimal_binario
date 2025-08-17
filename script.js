@@ -29,7 +29,7 @@ function decimalParaBinario() {
   resultado.innerHTML = `Decimal: <strong>${decimal}</strong> → Binário: <strong>${binario || "0"}</strong>`;
 
    // Adiciona linha final com o resultado
-  etapas.push(`<br><strong>Resultado final: ( ${decimal} )₈ → ( ${binario  || "0"} )₂ </strong>`);
+  etapas.push(`<br><strong>Resultado final: ( ${decimal} )₁₀ → ( ${binario  || "0"} )₂ </strong>`);
 
   passos.innerHTML = "<strong>Passos da conversão Decimal → Binário:</strong><br>" +
     etapas.join("<br>");
@@ -66,7 +66,7 @@ function binarioParaDecimal() {
   resultado.innerHTML = `Binário: <strong>${binario}</strong> → Decimal: <strong>${decimal}</strong>`;
 
    // Adiciona linha final com o resultado
-  etapas.push(`<br><strong>Resultado final: ( ${binario} )₂ → ( ${decimal} )₈</strong>`);
+  etapas.push(`<br><strong>Resultado final: ( ${binario} )₂ → ( ${decimal} )₁₀</strong>`);
 
   passos.innerHTML = "<strong>Passos da conversão Binário → Decimal:</strong><br>" +
     etapas.join("<br>");
